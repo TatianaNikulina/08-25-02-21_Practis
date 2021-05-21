@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Archivo Black", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 70px 0;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.learn-girl {
+  width: 300px;
+  height: 300px;
+  background: url("girl.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.learn-salat {
+  width: 130px;
+  height: 130px;
+  background-image: url("salad.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  border: 6px solid white;
+}
+
+.learn-info {
+  font-family: "Open Sans", sans-serif;
+  width: 400px;
+  position: absolute;
+  top: 320px;
+  left: 150px;
+}
+
+.learn-title {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 90px;
+  color: #fe4323;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.learn-subtitle {
+  color: #808080;
+  font-style: 36px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.learn-text {
+  color: #111;
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-style: 14px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn-red {
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #fe4323;
+  color: white;
+}
